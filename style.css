@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'roboto';
+  src: url(fonts/roboto/Roboto-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  margin-top: 30px;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 30px;
+}
+
+.navigation__link {
+  font-family: 'roboto', sans-serif;
+  color: #001E64;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
