@@ -62,3 +62,12 @@ ul {
 .navigation__link:hover {
   border-bottom: 1px solid #001E64;
 }
+
+.header__baner {
+  margin-top: -50px;
+  min-height: calc(100vh - 94px);
+  width: 100vw;
+  background: url(picture/baner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
